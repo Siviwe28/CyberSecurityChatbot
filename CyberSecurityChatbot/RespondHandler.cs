@@ -4,9 +4,11 @@ class RespondHandler
 {
     public static void Handle(string input)
     {
+        Console.Write("Bot: ");
+
         if (input.Contains("how are you"))
         {
-            Console.WriteLine("I'm functioning perfectly! 😄");
+            Console.WriteLine("I'm functioning perfectly.");
         }
         else if (input.Contains("purpose"))
         {
@@ -22,15 +24,15 @@ class RespondHandler
         }
         else if (input.Contains("phishing"))
         {
-            Console.WriteLine("Avoid suspicious emails and links.");
+            Console.WriteLine("Phishing attacks try to steal your information. Never click suspicious links.");
         }
         else if (input.Contains("browsing"))
         {
-            Console.WriteLine("Only use secure websites (HTTPS).");
+            Console.WriteLine("Use HTTPS websites and avoid public WiFi for sensitive transactions.");
         }
         else
         {
-            Console.WriteLine("I didn’t quite understand that. Could you rephrase?");
+            Console.WriteLine("I can help with passwords, phishing, or safe browsing. Type 'help' for options.");
         }
     }
 }

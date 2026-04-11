@@ -2,22 +2,29 @@
 
 class Chatbot
 {
+    public void Start()
+    {
+        string userName = Display.GetUserName();
+        StartChat(userName);
+    }
+
     public static void StartChat(string userName)
     {
         while (true)
         {
             Display.AskQuestion();
-            string input = Console.ReadLine().ToLower();
+
+            string input = (Console.ReadLine() ?? "").ToLower();
 
             if (!InputValidator.IsValid(input))
             {
-                Console.WriteLine("⚠️ Please enter something.");
+                Console.WriteLine("Please enter something.");
                 continue;
             }
 
             if (input.Contains("exit"))
             {
-                Console.WriteLine($"Goodbye, {userName}! Stay safe online 👋");
+                Console.WriteLine($"Goodbye, {userName}! Stay safe online.");
                 break;
             }
 
