@@ -1,0 +1,25 @@
+name: .NET CI
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restore
+        run: dotnet restore MyApp.csproj
+
+      - name: Build
+        run: dotnet build MyApp.csproj --configuration Release --no-restore
+
+      - name: Test
+        run: dotnet test MyApp.csproj --no-build
