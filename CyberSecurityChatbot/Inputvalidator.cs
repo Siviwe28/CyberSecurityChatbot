@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace CyberSecurityChatbot
+class InputValidator
 {
-    internal class Inputvalidator
+    public static bool IsValid(string input)
     {
+        return !string.IsNullOrWhiteSpace(input);
     }
 }
