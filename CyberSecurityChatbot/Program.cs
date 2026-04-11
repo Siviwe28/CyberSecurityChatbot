@@ -1,7 +1,4 @@
 ﻿using CyberSecurityChatbot;
-using CyberSecurityChatbot.Core;
-using CyberSecurityChatbot.Services;
-using CyberSecurityChatbot.UI;
 
 class Program
 {
@@ -17,4 +14,4 @@ class Program
         Chatbot bot = new Chatbot();
         bot.Start();
     }
-}// test commit
+}

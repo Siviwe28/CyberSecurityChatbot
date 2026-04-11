@@ -5,14 +5,17 @@ class AudioPlayer
 {
     public static void PlayGreeting()
     {
-        try
+        if (OperatingSystem.IsWindows())
         {
-            SoundPlayer player = new SoundPlayer("greeting.wav");
-            player.PlaySync();
-        }
-        catch
-        {
-            Console.WriteLine("⚠️ Audio file not found.");
+            try
+            {
+                SoundPlayer player = new SoundPlayer(CyberSecurityChatbot.Properties.Resources.Greeting);
+                player.Play();
+            }
+            catch
+            {
+                Console.WriteLine("⚠️ Audio file not found.");
+            }
         }
     }
 }
