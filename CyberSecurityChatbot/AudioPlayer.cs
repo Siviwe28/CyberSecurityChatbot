@@ -1,21 +1,18 @@
-﻿using System;
+using System;
 using System.Media;
 
 class AudioPlayer
 {
     public static void PlayGreeting()
     {
-        if (OperatingSystem.IsWindows())
+        try
         {
-            try
-            {
-                SoundPlayer player = new SoundPlayer(CyberSecurityChatbot.Properties.Resources.Greeting);
-                player.Play();
-            }
-            catch
-            {
-                Console.WriteLine("⚠️ Audio file not found.");
-            }
+            SoundPlayer player = new SoundPlayer("PlayGreeting.wav");
+            player.PlaySync();
+        }
+        catch
+        {
+            Console.WriteLine("⚠️ Audio file not found or cannot be played.");
         }
     }
 }
