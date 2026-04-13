@@ -23,9 +23,9 @@ class RespondHandler
             Console.WriteLine("Use strong passwords with letters, numbers, and symbols.");
         }
         else if (input.Contains("phishing"))
-        {
-            Console.WriteLine("Phishing attacks try to steal your information. Never click suspicious links.");
-        }
+{
+    Console.WriteLine("Avoid suspicious emails and never click unknown links.");
+}
         else if (input.Contains("browsing"))
         {
             Console.WriteLine("Use HTTPS websites and avoid public WiFi for sensitive transactions.");
