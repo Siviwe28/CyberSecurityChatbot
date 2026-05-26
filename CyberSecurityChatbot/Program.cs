@@ -1,17 +1,13 @@
-﻿using CyberSecurityChatbot;
+﻿using System;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        // Play voice greeting
         AudioPlayer.PlayGreeting();
+        AsciiArt.Show();
 
-        // Display ASCII art
-        Display.ShowHeader();
-
-        // Start chatbot
-        Chatbot bot = new Chatbot();
-        bot.Start();
+        string name = Display.GetUserName();
+        Chatbot.StartChat(name);
     }
 }

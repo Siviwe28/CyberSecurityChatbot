@@ -22,11 +22,11 @@ The purpose of this project is to:
 ---
 
 ##  Features
-- 🎤 Voice greeting on startup (WAV file playback)
-- 👤 User interaction through console input
-- 🔐 Basic cybersecurity tips and advice
-- 📋 Menu-driven navigation system
-- 🧠 Educational content about online safety
+- Voice greeting on startup (WAV file playback)
+-  User interaction through console input
+-  Basic cybersecurity tips and advice
+-  Menu-driven navigation system
+-  Educational content about online safety
 
 ---
 
@@ -69,6 +69,3 @@ The purpose of this project is to:
 
 ---
 
-##  Notes
-- Ensure all required files (especially audio files) are included when submitting
-- Keep file paths relative to avoid errors on other machines
