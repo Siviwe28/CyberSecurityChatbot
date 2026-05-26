@@ -61,6 +61,18 @@ The purpose of this project is to:
 - Phishing awareness
 - Safe internet browsing
 
+
+- ## Features Enhancements
+- Added GUI design and implementation 
+- Keyword recognition 
+- Random responces
+- Conversation flow
+- Memory and recall 
+- Sentiment Detection 
+- Error handling and edge cases
+- Code optimization 
+
+
 ---
 
 ##  Author

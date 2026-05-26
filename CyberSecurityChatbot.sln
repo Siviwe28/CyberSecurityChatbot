@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberSecurityChatbot", "Cyb
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberSecurityChatbotWPF", "..\CyberSecurityChatbotWPF\CyberSecurityChatbotWPF\CyberSecurityChatbotWPF.csproj", "{F324663B-E997-BF8B-D549-91BD7651E7B8}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberSecurityChatBot-Part2", "CyberSecurityChatBot-Part2\CyberSecurityChatBot-Part2.csproj", "{A75862DF-29D9-47C0-A265-C179A143B693}"
 EndProject
 Global
@@ -21,10 +19,6 @@ Global
 		{A46D879C-0E13-437C-BCC8-E797E96D8456}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A46D879C-0E13-437C-BCC8-E797E96D8456}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A46D879C-0E13-437C-BCC8-E797E96D8456}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F324663B-E997-BF8B-D549-91BD7651E7B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F324663B-E997-BF8B-D549-91BD7651E7B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F324663B-E997-BF8B-D549-91BD7651E7B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F324663B-E997-BF8B-D549-91BD7651E7B8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A75862DF-29D9-47C0-A265-C179A143B693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A75862DF-29D9-47C0-A265-C179A143B693}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A75862DF-29D9-47C0-A265-C179A143B693}.Release|Any CPU.ActiveCfg = Release|Any CPU
