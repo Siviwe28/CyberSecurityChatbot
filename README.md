@@ -60,8 +60,28 @@ The purpose of this project is to:
 - Password safety
 - Phishing awareness
 - Safe internet browsing
+- 
+### Part 3 (v3.0)
+- **Task Assistant:** Add, view, complete, and delete tasks with SQLite database
+- **Cybersecurity Quiz:** 11 questions with immediate feedback and scoring
+- **NLP Simulation:** Intent detection with keyword variations
+- **Activity Log:** Record and view all actions with Show More feature
+- **Sentiment Detection:** Empathetic responses based on user sentiment
 
----
+## Prerequisites
+- Visual Studio 2022
+- .NET 8.0 or higher
+- NuGet Packages:
+  - Microsoft.EntityFrameworkCore.Sqlite
+  - Microsoft.EntityFrameworkCore.Proxies
+
+## Setup Instructions
+1. Clone the repository
+2. Open the solution in Visual Studio
+3. Restore NuGet packages
+4. Place `Greeting.wav` in the `Audio` folder
+5. Build and run the application
+
 
 ##  Author
 - Name: Siviwe Mnyaka  
