@@ -1,66 +1,31 @@
 # Cybersecurity Awareness Bot
 
+## Student Information
+- **Name:** Siviwe Mnyaka
+- **Student Number:** ST10062453
+
 ## Project Description
-The Cybersecurity Awareness Bot is a C# console application designed to educate users about basic cybersecurity practices. It provides interactive guidance, security tips, and includes a voice greeting to create a more engaging user experience.
+The Cybersecurity Awareness Bot is a C# WPF application designed to educate users about basic cybersecurity practices. It provides interactive guidance, security tips, and includes features like Task Management, Cybersecurity Quiz, NLP simulation, and Sentiment Detection.
 
----
-
-##  Purpose of the Project
+## Purpose of the Project
 The purpose of this project is to:
 - Raise awareness about cybersecurity threats
 - Teach users how to stay safe online
-- Provide simple, interactive learning through a console application
+- Provide simple, interactive learning through a GUI application
 
----
+## Features
 
-##  Technologies Used
-- Programming Language: C#
-- Framework: .NET Console Application
-- IDE: Visual Studio
-- Audio Format: WAV (for voice greeting feature)
+### Part 1 (v1.0)
+- Keyword-based responses for cybersecurity topics
+- Basic cybersecurity tips for passwords, phishing, privacy, scams
+- Simple chat interface with ASCII art
 
----
+### Part 2 (v2.0)
+- Enhanced GUI with WPF/XAML
+- Sentiment detection (Worried, Curious, Frustrated, Happy)
+- Personalized user experience with name dialog
+- Audio playback on startup
 
-##  Features
-- Voice greeting on startup (WAV file playback)
--  User interaction through console input
--  Basic cybersecurity tips and advice
--  Menu-driven navigation system
--  Educational content about online safety
-
----
-
-##  Installation Instructions
-1. Download or clone the project repository
-2. Open the project in **Visual Studio**
-3. Ensure the `.wav` file is placed in the correct project folder
-4. Build the solution (`Ctrl + Shift + B`)
-5. Run the application (`F5`)
-
----
-
-##  Voice Greeting Setup
-- The program plays a `.wav` file when it starts
-- Ensure your file is named correctly (e.g., `Greeting.wav`)
-- Place it inside the project directory or a folder like `Resources/Audio`
-- Verify the file path in your code
-
----
-
-##  How to Use the Application
-1. Start the program
-2. Listen to the voice greeting
-3. Follow the on-screen menu options
-4. Select topics to learn about cybersecurity
-5. Exit when finished
-
----
-
-## Example Topics Covered
-- Password safety
-- Phishing awareness
-- Safe internet browsing
-- 
 ### Part 3 (v3.0)
 - **Task Assistant:** Add, view, complete, and delete tasks with SQLite database
 - **Cybersecurity Quiz:** 11 questions with immediate feedback and scoring
@@ -76,16 +41,13 @@ The purpose of this project is to:
   - Microsoft.EntityFrameworkCore.Proxies
 
 ## Setup Instructions
-1. Clone the repository
-2. Open the solution in Visual Studio
+1. Clone this repository
+2. Open the solution file (CyberSecurityChatbot.sln) in Visual Studio
 3. Restore NuGet packages
 4. Place `Greeting.wav` in the `Audio` folder
 5. Build and run the application
 
 
-##  Author
-- Name: Siviwe Mnyaka  
-- Student Number: ST10062453 
-
----
-
+- v1.0 - Part 1: Basic Chatbot
+- v2.0 - Part 2: Enhanced GUI
+- v3.0 - Part 3: Final Complete Application
