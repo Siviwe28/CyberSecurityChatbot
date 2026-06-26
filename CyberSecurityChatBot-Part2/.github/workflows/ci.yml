@@ -19,26 +19,12 @@ jobs:
       with:
         dotnet-version: '8.0.x'
 
-    - name: Setup MSBuild.exe
-      uses: microsoft/setup-msbuild@v2
-
-    - name: List files for debugging
-      run: |
-        echo "Current directory:"
-        dir
-        echo ""
-        echo "Looking for .csproj files:"
-        dir /s *.csproj
-      shell: cmd
-
-    - name: Restore NuGet Packages
+    - name: Restore dependencies
       run: |
         cd CyberSecurityChatBot-Part2
-        msbuild CyberSecurityChatBot-Part2.csproj /t:Restore /p:Configuration=Release
-      shell: cmd
+        dotnet restore CyberSecurityChatBot-Part2.csproj
 
-    - name: Build the Application
+    - name: Build the application
       run: |
         cd CyberSecurityChatBot-Part2
-        msbuild CyberSecurityChatBot-Part2.csproj /p:Configuration=Release /p:Platform="Any CPU"
-      shell: cmd
+        dotnet build CyberSecurityChatBot-Part2.csproj --configuration Release --no-restore
